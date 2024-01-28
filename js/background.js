@@ -10,4 +10,6 @@ const bgImage = document.createElement("img");
 
 bgImage.src = `img/${chosenImage}`;
 
+bgImage.id = "BackGroundImage"
+
 document.body.appendChild(bgImage);
