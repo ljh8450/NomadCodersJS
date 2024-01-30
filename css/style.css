@@ -16,7 +16,7 @@ body {
     height: 100%;
     position: absolute;
     z-index: -1;
-    opacity: 0.8;
+    opacity: 0.6;
     background-position: center;
     background-size: cover;
 }
@@ -26,4 +26,21 @@ body {
     font-size: 22px;
     color: white;
     border-bottom: 2px solid white;
+    
+}
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+#clock {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: green;
+    font-size: 60px;
+}
+#myDate {
+    margin-bottom: 5px;
+    color: aquamarine;
 }
