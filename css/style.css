@@ -1,3 +1,4 @@
+
 .hidden {
     display: none;
 }
@@ -7,9 +8,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-#login-form {
-    width: 400px;
 }
 .BackGroundImage {
     width: 100%;
@@ -28,6 +26,14 @@ body {
     border-bottom: 2px solid white;
     
 }
+#todo-input {
+    background: none;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-size: 22px;
+}
 .center {
     display: flex;
     align-items: center;
@@ -43,4 +49,17 @@ body {
 #myDate {
     margin-bottom: 5px;
     color: aquamarine;
+    text-shadow: -1px 0px red, 0px 1px red, 1px 0px red, 0px -1px red;
+}
+#quote {
+    position: absolute;
+    bottom: 10px;
+    font-size: 20px;
+    text-shadow: -1px 0px gold, 0px 1px gold, 1px 0px gold, 0px -1px gold;
+}
+#weather {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    text-shadow: -1px 0px lime, 0px 1px lime, 1px 0px lime, 0px -1px lime;
 }
