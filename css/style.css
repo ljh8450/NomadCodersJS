@@ -38,7 +38,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 150px;
 }
 #clock {
     margin-top: 0px;
