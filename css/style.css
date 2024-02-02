@@ -67,11 +67,14 @@ body {
 #todo-list {
     position: relative;
     left: -100px;
-    color: coral;
+    color: palevioletred;
 }
 #delete-button {
     background: none;
     position: absolute;
     left: 200px;
 
+}
+ul {
+    list-style-type: none;
 }

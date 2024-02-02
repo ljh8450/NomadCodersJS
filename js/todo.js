@@ -21,7 +21,7 @@ function paintToDo(newTodo){
     const li = document.createElement("li");
     li.id = newTodo.id;
     const span = document.createElement("span");
-    span.innerText = newTodo.Text;
+    span.innerText = "𖠌 " + newTodo.Text;
     const button = document.createElement("button");
     button.innerText = "❌";
     button.addEventListener("click", deleteToDo);
